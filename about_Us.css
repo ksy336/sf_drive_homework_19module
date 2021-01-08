@@ -1,0 +1,131 @@
+.link {
+    color: darkseagreen;
+}
+.link:hover {
+    color: darkgreen;
+}
+
+
+.info {
+    text-align: right;
+    cursor: pointer;
+
+}
+
+a {
+    width: 900px;
+    height: 124px;
+    color: black;
+}
+
+a:hover {
+
+    color: green;
+}
+
+button {
+    float: right;
+    cursor: pointer;
+    color: black;
+}
+button:hover {
+    color: green;
+}
+.icon {
+    text-align: left;
+}
+
+
+
+.about_us {
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+    fill: solid #1B1B1B;6
+}
+
+.contacts {
+    background: #F7F9FB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B1B1B;
+}
+h3 {
+    text-align: center;
+}
+.photo {
+    margin: 100px;
+    font-size: 48px;
+}
+.round {
+    border-radius: 100 px;
+    margin: 10 px;
+    object-fit: cover;
+}
+
+section {
+    padding: 120px 0;
+}
+@media screen and (min-width: 1200px) {
+    section {
+        width: 944px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    section {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    section {
+        padding: 60px 0;
+    }
+}
+footer {
+    background-color: #a3a3a0;
+    margin-top: 50px;
+    color: #f2f2ed;
+    text-align: center;
+}
+.footer-frame-social {
+    display: inline-block;
+    width: 45px;
+    position: relative;
+    float: right;
+    margin: 60px auto 0;
+    color: black;
+}
+
+.icon-facebook a {
+    color: black;
+}
+
+.icon-facebook a:hover {
+    color: darkgrey;
+}
+.icon-vk a {
+
+}
+img {
+    color: black;
+}
+img:hover {
+    color: darkgrey;
+}
